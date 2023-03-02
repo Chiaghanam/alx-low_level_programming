@@ -28,9 +28,9 @@ char *rot13(char *str)
 			'e', 'f', 'g', 'h', 'i', 'j',
 			'k', 'l', 'm'};
 
-	while (str[intx1])
+	while (str[indx1])
 	{
-		for (indx2 = 0; indx < 52; indx2++)
+		for (indx2 = 0; indx2 < 52; indx2++)
 		{
 			if (str[indx1] == alphabet[indx2])
 			{
