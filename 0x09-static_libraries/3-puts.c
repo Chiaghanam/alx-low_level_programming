@@ -1,16 +1,12 @@
 #include "main.h"
-
-void _puts(char *str);
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - Entry point
- *
- * _puts - import function
- * Return: Always 0 (Success)
- */
-int main(void)
+* main - Entery piont
+*
+* Return: Always 0
+**/
+	int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
-
